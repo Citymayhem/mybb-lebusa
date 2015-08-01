@@ -8,8 +8,8 @@ Upgrade: -
 Author URL: http://www.enesatik.org
 
 /*------------------[Lebusa v1 - Global Css]-------------------*/
-		
-		#debug {
+	
+#debug {
 	float: right;
 	text-align: right;
 	margin-top: 20px;
@@ -84,12 +84,11 @@ table {
 }
 
 .thead {
-	background: #121212;
+	background: linear-gradient(#13bcd0, #11a7b9);
 	color: #ffffff;
 	padding: 11px 5px 8px 5px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  color: #dfdfdf;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
 }
 
 .thead a:link {
