@@ -37,7 +37,7 @@ a:hover {color: darkorange; text-decoration:none;}
 .panel li ul .linkler a:link, a:visited {color: darkgreen;  font-family: Arial, sans-serif; font-size: 14px; font-weight: 200;}
 .navigasyon {float:left;}
 .navigasyon li:hover {background: #e74c3c; border-color: #000;}
-#header {margin-top: 52px; background: #202020; border-bottom: 1px solid #111;}
+#header {margin-top: 52px; background: #202020; border-bottom: 1px solid #111; padding: 10px;}
 .logo {margin: 10px 5px 10px 5px;}
 .altheader {padding: 0;background: #202020; border-bottom: 1px solid #000; border-top: 1px solid #000; height: 40px;}
 .altheader ul {padding: 0;}
