@@ -1,34 +1,27 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-<head>
-	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-	<title>{$mybb->settings['bbname']}</title>
-</head>
-<body>
-<div id="container">
-<div class="panel">
-  <navigation>
-<ul class="sagsira">{$welcomeblock}</ul>
+<div id="container"><div class="panel">
+	<div class="navigasyon">
+		<li><a href="{$mybb->settings['bburl']}">{$lang->toplinks_home}</a></li>
+		<li><a href="{$mybb->settings['bburl']}/portal.php">{$lang->toplinks_portal}</a></li>
+		<li><a href="{$mybb->settings['bburl']}/memberlist.php">{$lang->toplinks_memberlist}</a></li>
+		<li><a href="{$mybb->settings['bburl']}/showteam.php">{$lang->toplinks_stafflist}</a></li>
+		<li><a href="{$mybb->settings['bburl']}/donate">{$lang->toplinks_donate}</a></li>
+		<li><a href="{$mybb->settings['bburl']}/misc.php?action=help">{$lang->toplinks_help}</a></li>
+		<li><a href="{$mybb->settings['bburl']}/search.php">{$lang->toplinks_search}</a></li>
+	</div>
+	<ul class="sagsira">{$welcomeblock}</ul>
 </div>
 <div id="header">
-  <a href="{$mybb->settings['bburl']}"><img class="logo" alt="logo" src="images/lebusa/logo.png"/></a>
-  </div>
-  <div class="altheader"><ul>
-    <a href="/"><li><i class="fa fa-home"></i> Home</li></a>
-    <a href="{$mybb->settings['bburl']}"><li><i class="fa fa-comments"></i> Forum</li></a>
-    <a href="{$mybb->settings['bburl']}/search.php"><li><i class="fa fa-search"></i> Search</li></a>
-    <a href="{$mybb->settings['bburl']}/memberlist.php"><li><i class="fa fa-users"></i> Members</li></a>
-    
-    <div class="sosyal">
-      <a href="http://www.facebook.com/#" target="_blank"><li class="facebook"><i class="fa fa-facebook fa-lg"></i></li></a>
-<a href="http://twitter.com/#" target="_blank"><li class="twitter"><i class="fa fa-twitter fa-lg"></i></li></a>
- <a href="http://www.youtube.com/user/#" target="_blank"><li class="youtube"><i class="fa fa-youtube fa-lg"></i></li></a>
-    </div>
-    </ul></div>
-              	
-				<div style="margin: 12px 0 12px 0;">{$pm_notice}
-				{$bannedwarning}
-				{$bbclosedwarning}
-				{$unreadreports}
-				{$pending_joinrequests}
-                  {$awaitingusers}</div><div id="content">
+	<a href="{$mybb->settings['bburl']}"><img src="{$theme['logo']}" alt="{$mybb->settings['bbname']}" title="{$mybb->settings['bbname']}"/></a>
+</div>
+<div class="altheader">
+	<navigation>
+</div>
+
+<div style="margin: 12px 0 12px 0;">
+	{$pm_notice}
+	{$bannedwarning}
+	{$bbclosedwarning}
+	{$unreadreports}
+	{$pending_joinrequests}
+	{$awaitingusers}
+</div><div id="content">

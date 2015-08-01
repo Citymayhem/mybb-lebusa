@@ -1,0 +1,65 @@
+/*
+Version: v1
+Author: Enes Atik
+Theme Name: Lebusa v1 Tema
+Browser Compatibility: IE11,Mozilla,Opera,Safari,Chrome
+Date Created: 04.01.2015
+Upgrade: -
+Author URL: http://www.enesatik.org
+
+/*------------------[Lebusa v1 - Lebusa Css]-------------------*/
+		
+		*{margin: 0; list-style: none;}
+body {background: #111; color: #3c3c3c; font-family: 'Open Sans', sans-serif;font-size: 13px;}
+a:link, a:visited {color:#222; text-decoration: none;}
+a:hover {color: darkorange; text-decoration:none;}
+#container {min-width: 1022px; width: 80%; margin: 50px auto; background: #fefefe;border-right: 1px solid #000; border-left: 1px solid #000;border-bottom: 1px solid #000}
+.panel {width: 80%; min-width: 1022px;position: fixed; top: 0; height: 50px; background: #1f1f1f; border-bottom: 2px solid #000; }
+.panel .sagsira {float:right}
+.panel li,.navigasyon li {cursor:pointer; color: grey; text-shadow: 1px 1px 1px #000; font-size: 12px; font-weight: 700; padding: 19px 10px 11px 10px; height: 20px; background: #101010; border-right: 1px solid black; text-align: center; float:left; transition: 0.3s all; -moz-transition: 0.3s all; -webkit-transition: 0.3s all; }
+.navigasyon li {background: #34495e; color: white;}
+.panel li a {color: grey;}
+.navigasyon li a {color: white;}
+.panel li ul.kayit {color: #000; text-shadow: 0 0 0; font-weight: 200; box-shadow: 0.3px 0.3px 1px #fff;  font-family: Trebuchet MS, sans-serif; font-size: 14px; cursor: default; display: none; position: absolute; top: 50px; margin-left: -210px; background: #fff; padding: 30px 40px 30px 40px; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; border: 6px solid #111;}
+.panel li ul.uyepaneli {border-bottom: 1px solid #000; border-right: 1px solid #000; border-left: 1px solid #000;width: 150px;padding: 0;color: grey; background: #101010; cursor: default; display: none; position: absolute; margin-left: -104px; margin-top: -1px;}
+.panel li ul.uyepaneli ul {padding: 0; }
+.panel li ul.uyepaneli ul li:hover a{color: #fff}
+.panel li ul.uyepaneli li {border-right: 0px; padding: 5px 8px 5px 8px; margin: 5px 0 5px 0;transition: 100ms; -webkit-transition: 100ms; -moz-transition: 100ms; text-align:left;width: 134px;}
+.panel li ul.uyepaneli li:hover {background: #34495e; color: #fff;}
+.panel li ul.uyepaneli li a {color: #fff}
+.panel ul.kayit li:hover,.navigasyon li:hover {background: #010101; border-bottom: 2px solid darkorange; height: 18px;}
+.panel li:hover ul {display:block;}
+.panel li ul:hover {display:block;}
+.panel li > ul {top: 51px;left: auto; margin-left: -190px;}
+.panel li ul form input.giris {width: 200px; border: 1px solid #ccc; font-family: 'Exo 2', sans-serif; font-weight: 500; color: #444; outline: none; font-size: 14px; padding: 4px 2px 4px 2px; background: #dfdfdf; margin-bottom: 5px;}
+.panel li ul form button {border: 1px solid #111; color: #fff; background: #34495e; text-align: center; cursor:pointer;  padding: 4px 2px 4px 2px; width: 70px; height: 26px;}
+.panel li ul form button:hover {background: #2c3e50;}
+.panel li ul .linkler a:link, a:visited {color: darkgreen;  font-family: Arial, sans-serif; font-size: 14px; font-weight: 200;}
+.navigasyon {float:left;}
+.navigasyon li:hover {background: #e74c3c; border-color: #000;}
+#header {margin-top: 52px; background: #202020; border-bottom: 1px solid #111;}
+.logo {margin: 10px 5px 10px 5px;}
+.altheader {padding: 0;background: #202020; border-bottom: 1px solid #000; border-top: 1px solid #000; height: 40px;}
+.altheader ul {padding: 0;}
+.altheader li {float:left; background: #0f0f0f;transition: 100ms; -webkit-transition: 100ms; color: grey; text-shadow: 1px 1px 1px #000; text-align:center; height: 20px; padding: 10px 16px 10px 16px; border-right: 1px solid #000; font-family: 'Exo 2', sans-serif; font-weight: 500; font-size: 14.5px;}
+.altheader li i {margin-right: 5px;}
+.altheader li a {color: grey}
+.altheader li:hover {background: #222;}
+.altheader .sosyal {float:right;}
+.altheader .sosyal i {margin-top: 3px; margin-left: 3px; color: #fff; margin-right: 0;}
+.altheader li.facebook {border-left: 1px solid #000;  text-shadow: 0 0 0; background: #2c3e50}
+.altheader li.facebook:hover {background: #34495e}
+.altheader li.twitter {background: #2980b9; text-shadow: 0 0 0;}
+.altheader li.twitter:hover {background: #3498db}
+.altheader .youtube {background: #c0392b; text-shadow: 0 0 0;}
+.altheader .youtube:hover {background: #e74c3c}
+#content {padding: 3px; }
+#footer {height: 82px; border-top: 2px solid #000;font-family: 'Open Sans', sans-serif; font-size: 15px; text-shadow: 1px 1px 1px black;}
+#footer .top {height: 20px; padding: 10px; background: #111;}
+#footer a:link, a:visited {color: grey}
+#footer a:hover {color: orange}
+#footer .top ul {float:left; padding: 0;}
+#footer .top ul li {color: #fff; float:left; margin-right: 10px;border-right: 1px dashed grey; padding-right:16px;}
+#footer .bottom {height: 25px; padding: 8px 4px 8px 4px; background: #030303; border-top: 1px solid #000;}
+.userbrowsing {background: #FAFAFA;border: 1px solid #CCC;padding: 8px;}
+		
