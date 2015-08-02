@@ -13,7 +13,7 @@ Author URL: http://www.enesatik.org
 body {background: #E4E6E6; color: #3c3c3c; font-family: 'Open Sans', sans-serif;font-size: 13px;}
 a:link, a:visited {color:#222; text-decoration: none;}
 a:hover {color: darkorange; text-decoration:none;}
-#container {min-width: 1022px; width: 98%; margin: 50px auto;}
+#container {min-width: 1022px; width: 98%; margin: 0 auto;}
 .panel {width: 100%; min-width: 1022px;position: fixed; z-index: 1000; top: 0; height: 50px; background: #1f1f1f; border-bottom: 1px solid #000; }
 .panel .sagsira {float:right;}
 .panel li,.navigasyon li {list-style: none; cursor:pointer; color: grey; text-shadow: 1px 1px 1px #000; font-size: 12px; font-weight: 700; padding: 19px 10px 11px 10px; height: 20px; background: #101010; border-right: 1px solid black; text-align: center; float:left; transition: 0.3s all; -moz-transition: 0.3s all; -webkit-transition: 0.3s all; }
@@ -55,7 +55,7 @@ a:hover {color: darkorange; text-decoration:none;}
 .altheader .youtube {background: #c0392b; text-shadow: 0 0 0;}
 .altheader .youtube:hover {background: #e74c3c}
 #content {}
-#footer {height: 82px; border-top: 2px solid #000;font-family: 'Open Sans', sans-serif; font-size: 15px; text-shadow: 1px 1px 1px black;}
+#footer {height: 82px; border: 2px solid #000;font-family: 'Open Sans', sans-serif; font-size: 15px; text-shadow: 1px 1px 1px black;}
 #footer .top {height: 20px; padding: 10px; background: #111;}
 #footer .top li {list-style: none;}
 #footer a:link, a:visited {color: grey}
