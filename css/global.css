@@ -1507,3 +1507,19 @@ div.jqi .jqisubstate .jqibuttons button {
 }
 
 /** Impromptu End */
+
+
+.spoiler_wrapper{
+	border-radius:2px;
+	border:1px solid #ccc;
+}
+.spoiler_header{
+	background-color: #F5F5F5;
+	cursor:pointer;
+	border-bottom:1px solid #ccc;
+	padding:2px;
+}
+.spoiler_body{
+	display: none;
+	padding:2px;
+}
