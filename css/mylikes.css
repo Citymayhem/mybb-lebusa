@@ -1,0 +1,15 @@
+.postbit_likes {
+	clear:both;
+	padding:5px;
+	background-color: #F5F5F5;
+	border-left:1px solid #CCC;
+	border-right:1px solid #CCC;
+	border-bottom:1px solid #CCC;
+}
+
+.postbit_likes_you span{font-weight:bold;}
+
+.postbit_buttons .postbit_like .mylikes_like {
+	background: none;
+	padding: 0;
+}

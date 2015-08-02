@@ -1,2 +1,4 @@
-<a href="javascript:addLike({$post['pid']}, {$post['uid']}, {$likes}, '{$success}', '{$delete}', '{$lang->mylikes_likes}', '{$lang->mylikes_like}', '{$lang->mylikes_unlike}');"><span id="like_{$post['pid']}" class="mylikes_like {$liked}">{$mylikes}</span></a>
-<a href="javascript:MyBB.popupWindow('/misc.php?action=likes&pid={$post['pid']}&uid={$post['uid']}');" id="liked_{$post['pid']}"><span class="mylikes_likes">({$likes}) {$lang->mylikes_likes}</span></a>
+<a class="postbit_like" href="javascript:addLike({$post['pid']}, {$post['uid']}, {$likes}, '{$success}', '{$delete}', '{$lang->mylikes_likes}', '{$lang->mylikes_like}', '{$lang->mylikes_unlike}');">
+	<i class="fa fa-thumbs-up fa-fw"></i>&nbsp;
+	<span id="like_{$post['pid']}" class="mylikes_like {$liked}">{$mylikes}</span>
+</a>
