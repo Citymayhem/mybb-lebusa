@@ -1,14 +1,19 @@
 <div class="panel">
 	<div class="navigasyon">
-		<li><a href="{$mybb->settings['bburl']}">{$lang->toplinks_home}</a></li>
+		<li><a href="{$mybb->settings['bburl']}/forum-3.html">Community</a></li>
+		<li class="navtab"><a href="{$mybb->settings['bburl']}/forum-63.html">Gaming</a></li>
+		<li class="navtab"><a href="{$mybb->settings['bburl']}/forum-7.html">Discussion</a></li>
+		<li class="navtab"><a href="{$mybb->settings['bburl']}">All</a></li>
+	</div>
+	<ul class="sagsira">
 		<li><a href="{$mybb->settings['bburl']}/portal.php">{$lang->toplinks_portal}</a></li>
 		<li><a href="{$mybb->settings['bburl']}/memberlist.php">{$lang->toplinks_memberlist}</a></li>
 		<li><a href="{$mybb->settings['bburl']}/showteam.php">{$lang->toplinks_stafflist}</a></li>
 		<li><a href="{$mybb->settings['bburl']}/donate">{$lang->toplinks_donate}</a></li>
 		<li><a href="{$mybb->settings['bburl']}/misc.php?action=help">{$lang->toplinks_help}</a></li>
 		<li><a href="{$mybb->settings['bburl']}/search.php">{$lang->toplinks_search}</a></li>
-	</div>
-	<ul class="sagsira">{$welcomeblock}</ul>
+		{$welcomeblock}
+	</ul>
 </div>
 <div id="header">
 	<a href="{$mybb->settings['bburl']}"><img src="{$theme['logo']}" alt="{$mybb->settings['bbname']}" title="{$mybb->settings['bbname']}"/></a>
@@ -23,5 +28,4 @@
 	{$bbclosedwarning}
 	{$unreadreports}
 	{$pending_joinrequests}
-	{$awaitingusers}
 </div><div id="content">
