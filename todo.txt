@@ -1,2 +1,3 @@
 Visited links are too light
-Your name in the top-right corner should be a link
+Links are used inside list items. The whole list item should be a link.
+UserCP links list is misaligned

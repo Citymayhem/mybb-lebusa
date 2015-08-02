@@ -1,0 +1,10 @@
+<li><a href="{$mybb->settings['bburl']}/member.php?action=profile&uid={$mybb->user['uid']}">{$mybb->user['username']}</a><ul class="uyepaneli">
+	<li><a href="{$mybb->settings['bburl']}/usercp.php"><i style="font-size: 14px;" class="fa fa-cog fa-fw"></i> {$lang->welcome_usercp}</a></li>
+	<li><a href="#" onclick="MyBB.popupWindow('{$mybb->settings['bburl']}/misc.php?action=buddypopup', null, true); return false;"><i style="font-size: 14px;" class="fa fa-users fa-fw"></i> {$lang->welcome_open_buddy_list}</a></li>
+	<li><a href="{$mybb->settings['bburl']}/usercp.php?action=avatar"><i class="fa fa-camera fa-fw"></i> Change Avatar</a></li>
+	<li><a href="{$mybb->settings['bburl']}/usercp.php?action=editsig"><i class="fa fa-picture-o fa-fw"></i> Change Signature</a></li>
+	<li><a href="{$mybb->settings['bburl']}/private.php"><i class="fa fa-envelope fa-fw"></i> {$lang->welcome_pms}</a></li>
+	<li><a href="{$mybb->settings['bburl']}/member.php?action=logout&amp;logoutkey={$mybb->user['logoutkey']}"><i class="fa fa-power-off fa-fw"></i> {$lang->welcome_logout}</a></li>
+</ul></li>
+{$modcplink}
+{$admincplink}
