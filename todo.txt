@@ -5,3 +5,9 @@ Custom home page
 	View todays posts
 	Community forums
 	Shoutbox
+Add events link
+	http://citymayhem.net/forum-13.html
+Shrink forum rows:
+	Replace username with avatar
+	Remove "Moderated by..."
+Add forum icons
