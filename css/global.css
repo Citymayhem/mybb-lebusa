@@ -108,7 +108,7 @@ table {
 }
 
 .tcat {
-	background: #111;
+	background: #202020;
 	color: #FAFAFA;
 	padding: 8px;
 	font-size: 11px;
@@ -854,13 +854,9 @@ div.error ul {
 
 .post .post_head {
 	font-size: 11px;
-	padding-bottom: 4px;
-	border-bottom: 1px dotted #ddd;
-	margin-bottom: 4px;
-}
-
-.post .post_head span.post_date {
-	color: #666;
+	padding: 8px 10px;
+	background: #202020;
+	color: #fff;
 }
 
 .post .post_head span.edited_post {
@@ -869,7 +865,7 @@ div.error ul {
 }
 
 .post .post_head span.edited_post a {
-	color: #666;
+	color: white;
 }
 
 .post_body {
@@ -1493,6 +1489,3 @@ div.jqi .jqisubstate .jqibuttons button {
 }
 
 /** Impromptu End */
-
-		
-		
