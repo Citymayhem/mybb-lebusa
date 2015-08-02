@@ -5,3 +5,16 @@ Custom home page
 	View todays posts
 	Community forums
 	Shoutbox
+Add events link
+	http://citymayhem.net/forum-13.html
+Shrink forum rows:
+	Replace username with avatar
+	Remove "Moderated by..."
+Add forum icons
+Links need some work
+	Could do with being more distinguishable from text
+	Need to fix the hover event
+Font-awesome isn't being cached on FireFox
+Need more spacing between "Users browsing this thread" and the last post.
+	Looks like they've liked the post
+Need more spacing between a post's likes and the next post
