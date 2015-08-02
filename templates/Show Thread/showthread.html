@@ -1,0 +1,105 @@
+<html>
+<head>
+<title>{$thread['subject']}</title>
+{$headerinclude}
+<script type="text/javascript">
+<!--
+	var quickdelete_confirm = "{$lang->quickdelete_confirm}";
+	var quickrestore_confirm = "{$lang->quickrestore_confirm}";
+	var allowEditReason = "{$mybb->settings['alloweditreason']}";
+	lang.save_changes = "{$lang->save_changes}";
+	lang.cancel_edit = "{$lang->cancel_edit}";
+	lang.quick_edit_update_error = "{$lang->quick_edit_update_error}";
+	lang.quick_reply_post_error = "{$lang->quick_reply_post_error}";
+	lang.quick_delete_error = "{$lang->quick_delete_error}";
+	lang.quick_delete_success = "{$lang->quick_delete_success}";
+	lang.quick_delete_thread_success = "{$lang->quick_delete_thread_success}";
+	lang.quick_restore_error = "{$lang->quick_restore_error}";
+	lang.quick_restore_success = "{$lang->quick_restore_success}";
+	lang.editreason = "{$lang->postbit_editreason}";
+// -->
+</script>
+<!-- jeditable (jquery) -->
+<script type="text/javascript" src="{$mybb->asset_url}/jscripts/report.js?ver=1800"></script>
+<script src="{$mybb->asset_url}/jscripts/jeditable/jeditable.min.js"></script>
+<script type="text/javascript" src="{$mybb->asset_url}/jscripts/thread.js?ver=1800"></script>
+</head>
+<body>
+	{$header}
+	{$threadnotesbox}
+	{$pollbox}
+	<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder tfixed clear" style="border: 0;">
+		<tr>
+			<td class="thead">
+				<div class="float_right">
+					{$ratethread}<br/>
+				</div>
+				<div>
+					<strong>{$thread['threadprefix']}{$thread['subject']}</strong>
+				</div>
+			</td>
+		</tr>
+  	</table>
+	<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder tfixed clear" style="margin-top: -15px; border: 0;">
+		<tr>
+			<td class="thead">Author: <b>$thread[username]</b>, Views: <b>$thread[views]</b>, Replies: <b>$thread[replies]</b><div style="float:right; margin-right: 10px;background: #003965; padding: 4px 3px; width: 175px; text-align:center; cursor:pointer;"> <a rel="nofollow" href="javascript:;" onclick="window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(location.href), 'facebook','toolbar=yes,scrollbars=yes,resizable=yes,width=800,height=600'); return false;" class="facebook" title="Share on Facebook" style="color: #fff; font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 500;"><i class="fa fa-facebook"></i> &nbsp;Share on Facebook</a></div>
+			</td>
+		</tr>
+  	</table>
+{$usersbrowsing}
+  <div style="margin-top: 10px;">{$multipage}</div>
+	<div id="posts_container">
+		<div id="posts">
+			{$posts}
+		</div>
+	</div>
+
+	<div class="tfoot">
+		{$search_thread}
+		<div>
+			<a class="effect" href="{$next_oldest_link}" title="{$lang->next_oldest}"><i class="fa fa-caret-square-o-left fa-2x"></i></a>&nbsp;&nbsp;
+			<a class="effect" href="{$next_newest_link}" title="{$lang->next_newest}"><i class="fa fa-caret-square-o-right fa-2x"></i></a>
+		</div>
+	</div>
+
+	<div class="float_left" style="margin-top: 10px;">
+		{$multipage}
+	</div>
+	<div class="float_right" style="margin-top: 17px;">
+		{$newreply}
+	</div>
+	<br class="clear" />
+	{$quickreply}
+	{$threadexbox}
+	{$similarthreads}
+	<br />
+	<div class="float_left">
+		<ul class="thread_tools">
+			<li class="printable"><a href="printthread.php?tid={$tid}">{$lang->view_printable}</a></li>
+			{$sendthread}
+			<li class="subscription_{$add_remove_subscription}"><a href="usercp2.php?action={$add_remove_subscription}subscription&amp;tid={$tid}&amp;my_post_key={$mybb->post_code}">{$add_remove_subscription_text}</a></li>
+			{$addpoll}
+		</ul>
+	</div>
+	<div class="float_right" style="text-align: right;">
+		{$moderationoptions}
+		{$forumjump}
+	</div>
+	<br class="clear" />
+	{$footer}
+	<div id="thread_modes_popup" class="popup_menu" style="display: none;"><div class="popup_item_container"><a href="showthread.php?mode=linear&amp;tid={$tid}&amp;pid={$pid}#pid{$pid}" class="popup_item">{$lang->linear}</a></div><div class="popup_item_container"><a href="showthread.php?mode=threaded&amp;tid={$tid}&amp;pid={$pid}#pid{$pid}" class="popup_item">{$lang->threaded}</a></div></div>
+	<script type="text/javascript">
+	// <!--
+		if(use_xmlhttprequest == "1")
+		{
+			$("#thread_modes").popupMenu();
+		}
+	// -->
+	</script>
+	<script type="text/javascript">
+		$(".author_avatar img").error(function () {
+			$(this).unbind("error").closest('.author_avatar').remove();
+		});
+	</script>
+</body>
+</html>
