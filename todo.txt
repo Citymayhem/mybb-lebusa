@@ -1,0 +1,2 @@
+Visited links are too light
+Your name in the top-right corner should be a link
