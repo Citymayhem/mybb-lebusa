@@ -2,9 +2,7 @@
 	clear:both;
 	padding:5px;
 	background-color: #F5F5F5;
-	border-left:1px solid #CCC;
-	border-right:1px solid #CCC;
-	border-bottom:1px solid #CCC;
+	border-top:1px solid #CCC;
 }
 
 .postbit_likes_you span{font-weight:bold;}
