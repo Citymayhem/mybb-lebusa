@@ -47,14 +47,16 @@
 			</td>
 		</tr>
   	</table>
-{$usersbrowsing}
-  <div style="margin-top: 10px;">{$multipage}</div>
+	{$usersbrowsing}
+	<div style="margin-top: 10px;">{$multipage}</div>
 	<div id="posts_container">
 		<div id="posts">
 			{$posts}
 		</div>
 	</div>
 
+	{$usersbrowsing}
+	
 	<div class="tfoot">
 		{$search_thread}
 		<div>
@@ -62,7 +64,7 @@
 			<a class="effect" href="{$next_newest_link}" title="{$lang->next_newest}"><i class="fa fa-caret-square-o-right fa-2x"></i></a>
 		</div>
 	</div>
-
+	
 	<div class="float_left" style="margin-top: 10px;">
 		{$multipage}
 	</div>

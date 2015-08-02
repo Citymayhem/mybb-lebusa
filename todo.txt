@@ -1,3 +1,7 @@
-Visited links are too light
-Links are used inside list items. The whole list item should be a link.
+Some of the buttons in the nav bars aren't clickable; only the text is.
 UserCP links list is misaligned
+Custom home page
+	View new posts
+	View todays posts
+	Community forums
+	Shoutbox
