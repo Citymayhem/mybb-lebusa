@@ -15,3 +15,6 @@ Links need some work
 	Could do with being more distinguishable from text
 	Need to fix the hover event
 Font-awesome isn't being cached on FireFox
+Need more spacing between "Users browsing this thread" and the last post.
+	Looks like they've liked the post
+Need more spacing between a post's likes and the next post
