@@ -85,7 +85,7 @@ table {
 
 .thead {
 	background: linear-gradient(#13bcd0, #11a7b9);
-	color: #ffffff;
+	color: #fff;
 	padding: 11px 5px 8px 5px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
@@ -109,7 +109,7 @@ table {
 
 .tcat {
 	background: #202020;
-	color: #FAFAFA;
+	color: #bbb;
 	padding: 8px;
 	font-size: 11px;
 }
@@ -856,7 +856,7 @@ div.error ul {
 	font-size: 11px;
 	padding: 8px 10px;
 	background: #202020;
-	color: #fff;
+	color: #bbb;
 }
 
 .post .post_head span.edited_post {
@@ -864,8 +864,12 @@ div.error ul {
 	color: #999;
 }
 
-.post .post_head span.edited_post a {
-	color: white;
+.post .post_head span.edited_post a{
+	color: #bbb;
+}
+
+.post .post_head .post_head_url a {
+	color:#bbb;
 }
 
 .post_body {
