@@ -28,7 +28,7 @@
 	{$header}
 	{$threadnotesbox}
 	{$pollbox}
-	<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder tfixed clear" style="border: 0;">
+	<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder tfixed clear" style="border: 0; padding: 0;">
 		<tr>
 			<td class="thead">
 				<div class="float_right">
@@ -40,9 +40,10 @@
 			</td>
 		</tr>
   	</table>
-	<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder tfixed clear" style="margin-top: -15px; border: 0;">
+	<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder tfixed clear" style="border: 0; padding: 0;">
 		<tr>
-			<td class="thead">Author: <b>$thread[username]</b>, Views: <b>$thread[views]</b>, Replies: <b>$thread[replies]</b><div style="float:right; margin-right: 10px;background: #003965; padding: 4px 3px; width: 175px; text-align:center; cursor:pointer;"> <a rel="nofollow" href="javascript:;" onclick="window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(location.href), 'facebook','toolbar=yes,scrollbars=yes,resizable=yes,width=800,height=600'); return false;" class="facebook" title="Share on Facebook" style="color: #fff; font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 500;"><i class="fa fa-facebook"></i> &nbsp;Share on Facebook</a></div>
+			<td class="tcat">
+				Author: <b>$thread[username]</b>, Views: <b>$thread[views]</b>, Replies: <b>$thread[replies]</b>
 			</td>
 		</tr>
   	</table>
