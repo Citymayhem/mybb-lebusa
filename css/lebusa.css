@@ -54,7 +54,7 @@ a:hover {color: darkorange; text-decoration:none;}
 .altheader li.twitter:hover {background: #3498db}
 .altheader .youtube {background: #c0392b; text-shadow: 0 0 0;}
 .altheader .youtube:hover {background: #e74c3c}
-#content {padding: 3px; }
+#content {}
 #footer {height: 82px; border-top: 2px solid #000;font-family: 'Open Sans', sans-serif; font-size: 15px; text-shadow: 1px 1px 1px black;}
 #footer .top {height: 20px; padding: 10px; background: #111;}
 #footer a:link, a:visited {color: grey}
