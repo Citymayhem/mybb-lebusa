@@ -74,7 +74,7 @@ table {
 .tborder {
 	width: 100%;
 	margin: auto auto;
-	border-bottom: 3px solid #111;
+	border-bottom: 3px solid #bbb;
 }
 
 .tfixed {
