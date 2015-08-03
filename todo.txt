@@ -23,3 +23,7 @@ Simplify
 	Remove clutter
 	Use font-awesome for button icons to make them consistent and clean
 	Have less, distinctive blocks on a page. Merge some into one.
+Event forum
+	Refer to XThreads Additions in XThreads documentation
+	Update custom templates to match theme
+	Add in required properties
