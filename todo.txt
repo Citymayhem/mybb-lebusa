@@ -3,7 +3,7 @@ UserCP links list is misaligned
 Custom home page
 	View new posts
 	View todays posts
-	Community forums
+	Community forums (forumdisplay.php)
 	Shoutbox
 Add events link
 	http://citymayhem.net/forum-13.html
@@ -18,3 +18,8 @@ Font-awesome isn't being cached on FireFox
 Need more spacing between "Users browsing this thread" and the last post.
 	Looks like they've liked the post
 Need more spacing between a post's likes and the next post
+The drop down icon on the breadcrumb trail is for the forum, but displayed next to the topic name
+Simplify
+	Remove clutter
+	Use font-awesome for button icons to make them consistent and clean
+	Have less, distinctive blocks on a page. Merge some into one.
