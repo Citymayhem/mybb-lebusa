@@ -1,0 +1,28 @@
+<tr class="inline_row">
+	<td align="center" class="{$bgcolor}{$thread_type_class}" width="2%"><span class="thread_status {$folder}" title="{$folder_label}">&nbsp;</span></td>
+	<td align="center" class="{$bgcolor}{$thread_type_class}" width="2%">{$icon}</td>
+	<td class="{$bgcolor}{$thread_type_class}">
+		{$attachment_count}
+		<div>
+          <span>{$prefix} {$gotounread}{$thread['threadprefix']}<span class="{$inline_edit_class} {$new_class}" id="tid_{$inline_edit_tid}"><a href="{$thread['threadlink']}">{$thread['subject']}</a></span>{$thread['multipage']}</span>
+          {$threadfields['desc']}
+          <div class="author smalltext">{$thread['profilelink']}</div>
+			<table width="100%" border="0">
+				<tr class="smalltext">
+					<td valign="top">{$GLOBALS['threadfields']['eventStartHour']}{$GLOBALS['threadfields']['eventStartMinute']} {$GLOBALS['threadfields']['eventStartDay']}{$GLOBALS['threadfields']['eventStartMonth']}{$GLOBALS['threadfields']['eventStartYear']}</td>
+				</tr>
+              <tr class="smalltext">
+                <td valign="top">{$GLOBALS['threadfields']['eventActivity']}</td>
+              </tr>
+			</table>
+		</div>
+	</td>
+	<td align="center" class="{$bgcolor}{$thread_type_class} ocultarmovil"><a href="javascript:MyBB.whoPosted({$thread['tid']});">{$thread['replies']}</a>{$unapproved_posts}</td>
+	<td align="center" class="{$bgcolor}{$thread_type_class} ocultarmovil">{$thread['views']}</td>
+	{$rating}
+	<td class="{$bgcolor}{$thread_type_class}" style="white-space: nowrap; text-align: right;">
+		<span class="lastpost smalltext">{$lastpostdate}<br />
+		<a href="{$thread['lastpostlink']}">{$lang->lastpost}</a>: {$lastposterlink}</span>
+	</td>
+{$modbit}
+</tr>
