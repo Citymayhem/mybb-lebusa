@@ -1524,3 +1524,19 @@ div.jqi .jqisubstate .jqibuttons button {
 	display: none;
 	padding:2px;
 }
+
+.bpost_table {
+	border:1px solid #ccc;
+}
+
+.bpost_head{
+	font-size:11px;
+	background:#202020;
+	color:white;
+	padding:8px 10px;
+}
+
+.bpost_head a{
+	color:white;
+	text-decoration:none;
+}
