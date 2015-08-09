@@ -908,6 +908,8 @@ div.error ul {
 	margin-top: 5px;
 	border-top: 1px dotted #ddd;
 	padding: 10px 0 4px 0;
+	max-height: 350px;
+	overflow-y: auto;
 }
 
 .post .post_meta {
