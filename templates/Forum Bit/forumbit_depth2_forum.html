@@ -1,0 +1,12 @@
+<tr>
+<td class="{$bgcolor}" align="center" valign="top" width="1"><span class="forum_status forum_{$lightbulb['folder']} ajax_mark_read" title="{$lightbulb['altonoff']}" id="mark_read_{$forum['fid']}"></span></td>
+<td class="{$bgcolor}" valign="top">
+<strong><a href="{$forum_url}">{$forum['name']}</a></strong>{$forum_viewers_text}<div class="smalltext">{$forum['description']}{$modlist}{$subforums}</div>
+</td>
+<td class="{$bgcolor}" valign="top" align="center" style="white-space: nowrap"></td>
+<td class="{$bgcolor}" valign="top" align="left" style="padding-right: 20px; width: 70px;">
+  <i style="font-size: 14px;" class="fa fa-file-text fa-fw" title="Konu"></i>&nbsp;{$threads}{$unapproved['unapproved_threads']}
+  <br />
+  <i style="font-size: 14px;" class="fa fa-comments fa-fw" title="Mesaj"></i>&nbsp;{$posts}{$unapproved['unapproved_posts']}</td>
+<td class="{$bgcolor}" valign="top" align="left" style="width: 200px;">{$lastpost}</td>
+</tr>
