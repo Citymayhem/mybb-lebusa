@@ -127,18 +127,15 @@ table {
 
 .trow1 a:link, .trow2 a:link{
 	color: #222;
-	text-decoration: none;
 }
 
 .trow1 a:visited, .trow2 a:visited {
 	color: #222;
-	text-decoration: none;
 }
 
 .trow1 a:hover, .trow1 a:active,
 .trow2 a:hover, .trow2 a:active{
 	color: #222;
-	text-decoration: none;
 }
 
 .trow_shaded {
