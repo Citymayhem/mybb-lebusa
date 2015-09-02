@@ -28,7 +28,7 @@ a:hover {color: darkorange; text-decoration:underline;}
 .panel li ul.uyepaneli li {border-right: 0px; padding: 5px 8px 5px 8px; margin: 5px 0 5px 0;transition: 100ms; -webkit-transition: 100ms; -moz-transition: 100ms; text-align:left;width: 134px;}
 .panel li ul.uyepaneli li:hover {background: #34495e; color: #fff;}
 .panel li ul.uyepaneli li a {color: #fff}
-.panel ul.kayit li:hover,.navigasyon li:hover,.sagsira li:hover{background: #010101; border-bottom: 2px solid darkorange; height: 18px;}
+.panel ul.kayit li:hover,.navigasyon li:hover, .sagsira > a > li:hover{background: #010101; border-bottom: 2px solid darkorange; height: 18px;}
 .panel li:hover ul {display:block;}
 .panel li ul:hover {display:block;}
 .panel li > ul {top: 51px;left: auto; margin-left: -190px;}
