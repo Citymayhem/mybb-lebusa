@@ -90,17 +90,17 @@ table {
 }
 
 .thead a:link{
-	color: #dfdfdf;
+	color: #fff;
 	text-decoration: none;
 }
 
 .thead a:visited {
-	color: #dfdfdf;
+	color: #fff;
 	text-decoration: none;
 }
 
 .thead a:hover, .thead a:active{
-	color: #dfdfdf;
+	color: #fff;
 	text-decoration: none;
 }
 
@@ -880,12 +880,8 @@ div.error ul {
 	color: #999;
 }
 
-.post .post_head span.edited_post a{
+.post .post_head span.edited_post a, .post .post_head .post_head_url a, .post_head a{
 	color: #bbb;
-}
-
-.post .post_head .post_head_url a {
-	color:#bbb;
 }
 
 .post_body {

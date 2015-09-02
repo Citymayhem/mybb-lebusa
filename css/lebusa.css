@@ -11,7 +11,7 @@ Author URL: http://www.enesatik.org
 
 *{margin: 0;}
 body {background: #E4E6E6; color: #3c3c3c; font-family: 'Open Sans', sans-serif;font-size: 13px;}
-a:link, a:visited {color:#222; text-decoration: none;}
+a {color:#00567C; text-decoration:none;}
 a:hover {color: darkorange; text-decoration:none;}
 #container {min-width: 1022px; width: 98%; margin: 0 auto;}
 .panel {width: 100%; min-width: 1022px;position: fixed; z-index: 1000; top: 0; height: 50px; background: #1f1f1f; border-bottom: 1px solid #000; }
@@ -20,7 +20,7 @@ a:hover {color: darkorange; text-decoration:none;}
 .navigasyon li {background: #34495e; color: white;}
 .navtab{background: #54697e; color: white;}
 .panel li a {color: grey;}
-.navigasyon li a {color: white;}
+.navigasyon li a {text-decoration: none;}
 .panel li ul.kayit {color: #000; text-shadow: 0 0 0; font-weight: 200; box-shadow: 0.3px 0.3px 1px #fff;  font-family: Trebuchet MS, sans-serif; font-size: 14px; cursor: default; display: none; position: absolute; top: 50px; margin-left: -210px; background: #fff; padding: 30px 40px 30px 40px; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; border: 6px solid #111;}
 .panel li ul.uyepaneli {border-bottom: 1px solid #000; border-right: 1px solid #000; border-left: 1px solid #000;width: 150px;padding: 0;color: grey; background: #101010; cursor: default; display: none; position: absolute; margin-left: -104px; margin-top: -1px;}
 .panel li ul.uyepaneli ul {padding: 0; }
@@ -64,3 +64,4 @@ a:hover {color: darkorange; text-decoration:none;}
 #footer .top ul li {color: #fff; float:left; margin-right: 10px;border-right: 1px dashed grey; padding-right:16px;}
 #footer .bottom {height: 25px; padding: 8px 4px 8px 4px; background: #030303; border-top: 1px solid #000;}
 .userbrowsing {background: #FAFAFA;border: 0;padding: 8px;}
+.sagsira li a { text-decoration: none; }
