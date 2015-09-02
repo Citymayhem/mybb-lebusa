@@ -35,7 +35,7 @@ a:hover {color: darkorange; text-decoration:none;}
 .panel li ul form input.giris {width: 200px; border: 1px solid #ccc; font-family: 'Exo 2', sans-serif; font-weight: 500; color: #444; outline: none; font-size: 14px; padding: 4px 2px 4px 2px; background: #dfdfdf; margin-bottom: 5px;}
 .panel li ul form button {border: 1px solid #111; color: #fff; background: #34495e; text-align: center; cursor:pointer;  padding: 4px 2px 4px 2px; width: 70px; height: 26px;}
 .panel li ul form button:hover {background: #2c3e50;}
-.panel li ul .linkler a:link, a:visited {color: darkgreen;  font-family: Arial, sans-serif; font-size: 14px; font-weight: 200;}
+.panel li ul .linkler a:link, .panel li ul .linkler a:visited {color: darkgreen;  font-family: Arial, sans-serif; font-size: 14px; font-weight: 200;}
 .navigasyon {float:left;}
 .navigasyon li:hover {background: #e74c3c; border-color: #000;}
 #header {margin-top: 51px; background: linear-gradient(#13bcd0, #11a7b9); border-bottom: 1px solid #111; padding: 10px;}
@@ -58,7 +58,7 @@ a:hover {color: darkorange; text-decoration:none;}
 #footer {height: 82px; border: 2px solid #000;font-family: 'Open Sans', sans-serif; font-size: 15px; text-shadow: 1px 1px 1px black;}
 #footer .top {height: 20px; padding: 10px; background: #111;}
 #footer .top li {list-style: none;}
-#footer a:link, a:visited {color: grey}
+#footer a:link, #footer a:visited {color: grey}
 #footer a:hover {color: orange}
 #footer .top ul {float:left; padding: 0;}
 #footer .top ul li {color: #fff; float:left; margin-right: 10px;border-right: 1px dashed grey; padding-right:16px;}

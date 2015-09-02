@@ -89,17 +89,12 @@ table {
 	font-size: 14px;
 }
 
-.thead a:link{
+.thead a, .thead a:link, .thead a:visited, .thead a:active{
 	color: #fff;
 	text-decoration: none;
 }
 
-.thead a:visited {
-	color: #fff;
-	text-decoration: none;
-}
-
-.thead a:hover, .thead a:active{
+.thead a:hover{
 	color: #fff;
 	text-decoration: none;
 }
