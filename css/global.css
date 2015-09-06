@@ -1530,3 +1530,10 @@ div.jqi .jqisubstate .jqibuttons button {
 	color:white;
 	text-decoration:none;
 }
+
+.internalLink{
+	display:block;
+	top:-51px;
+	position: relative;
+	visibility:hidden;
+}
