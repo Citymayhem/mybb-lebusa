@@ -1,8 +1,26 @@
-<li>{$lang->welcome_login}<ul class="kayit">
-  <form style="text-align:left;" method="post" action="{$mybb->settings['bburl']}/member.php">
-		<input name="action" type="hidden" value="do_login" />
-		<input name="url" type="hidden" value="" />
-		<input name="quick_login" type="hidden" value="1" />
-{$lang->username} <input class="giris" name="quick_username" id="quick_login_username" type="text"/><br />
-  <div style="float:left">{$lang->password}</div> <div style="float:left; "><input class="giris" style="width: 120px; margin-right: 10px;" name="quick_password" id="quick_login_password" type="password"/><button style="margin-right: 13px;">Giriş Yap</button></div><br/><div style="margin-top: 36px;"><input name="quick_remember" id="quick_login_remember" type="checkbox" value="yes" class="checkbox" checked="checked" />
-            <label for="quick_login_remember" style="color: #363636;">{$lang->remember_me}</label></div></form><div style="text-align: left" class="linkler"><a href="member.php?action=lostpw">{$lang->forgot_password}</a></div></ul></li><a href="member.php?action=register"><li>{$lang->welcome_register}</li></a></ul>
+  <li>{$lang->welcome_login}<ul class="kayit">
+    <form style="text-align:left;" method="post" action="{$mybb->settings['bburl']}/member.php">
+      <input name="action" type="hidden" value="do_login" />
+      <input name="url" type="hidden" value="" />
+      <input name="quick_login" type="hidden" value="1" />
+      {$lang->username}
+      <input class="giris" name="quick_username" id="quick_login_username" type="text"/>
+      <br />
+  	
+      <div style="float:left">{$lang->password}</div>
+      <div style="float:left; ">
+        <input class="giris" style="width: 120px; margin-right: 10px;" name="quick_password" id="quick_login_password" type="password"/>
+        <button style="margin-right: 13px;">{$lang->welcome_login}</button>
+      </div>
+      <br/>
+      <div style="margin-top: 36px;">
+        <input name="quick_remember" id="quick_login_remember" type="checkbox" value="yes" class="checkbox" checked="checked" />
+        <label for="quick_login_remember" style="color: #363636;">{$lang->remember_me}</label>
+      </div>
+    </form>
+    <div style="text-align: left" class="linkler">
+      <a href="member.php?action=lostpw">{$lang->forgot_password}</a>
+    </div>
+  </ul></li>
+  <a href="member.php?action=register"><li>{$lang->welcome_register}</li></a>
+</ul>
