@@ -1,8 +1,8 @@
-<li><a href="{$mybb->settings['bburl']}/member.php?action=profile&uid={$mybb->user['uid']}">{$mybb->user['username']}</a><ul class="uyepaneli">
+<li>{$mybb->user['username']} <i class="fa fa-bars"></i><ul class="uyepaneli">
 	<a href="{$mybb->settings['bburl']}/usercp.php"><li><i style="font-size: 14px;" class="fa fa-cog fa-fw"></i> {$lang->welcome_usercp}</li></a>
-	<a href="#" onclick="MyBB.popupWindow('{$mybb->settings['bburl']}/misc.php?action=buddypopup', null, true); return false;"><li><i style="font-size: 14px;" class="fa fa-users fa-fw"></i> {$lang->welcome_open_buddy_list}</li></a>
-	<a href="{$mybb->settings['bburl']}/usercp.php?action=avatar"><li><i class="fa fa-camera fa-fw"></i> Change Avatar</li></a>
-	<a href="{$mybb->settings['bburl']}/usercp.php?action=editsig"><li><i class="fa fa-picture-o fa-fw"></i> Change Signature</li></a>
+	<a href="{$mybb->settings['bburl']}/member.php?action=profile&uid={$mybb->user['uid']}"><li><i class="fa fa fa-user fa-fw"></i> {$lang->postbit_button_profile}</li></a>
+	<a href="{$mybb->settings['bburl']}/search.php?action=getnew"><li><i class="fa fa-file-o fa-fw"></i> {$lang->welcome_newposts}</li></a>
+	<a href="{$mybb->settings['bburl']}/search.php?action=getdaily"><li><i class="fa fa-calendar-plus-o fa-fw"></i> {$lang->welcome_todaysposts}</li></a>
 	<a href="{$mybb->settings['bburl']}/private.php"><li><i class="fa fa-envelope fa-fw"></i> {$lang->welcome_pms}</li></a>
 	<a href="{$mybb->settings['bburl']}/member.php?action=logout&amp;logoutkey={$mybb->user['logoutkey']}"><li><i class="fa fa-power-off fa-fw"></i> {$lang->welcome_logout}</li></a>
 </ul></li>
