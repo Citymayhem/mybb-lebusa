@@ -1,10 +1,13 @@
-<li>{$mybb->user['username']} <i class="fa fa-bars"></i><ul class="uyepaneli">
-	<a href="{$mybb->settings['bburl']}/usercp.php"><li><i style="font-size: 14px;" class="fa fa-cog fa-fw"></i> {$lang->welcome_usercp}</li></a>
-	<a href="{$mybb->settings['bburl']}/member.php?action=profile&uid={$mybb->user['uid']}"><li><i class="fa fa fa-user fa-fw"></i> {$lang->postbit_button_profile}</li></a>
-	<a href="{$mybb->settings['bburl']}/search.php?action=getnew"><li><i class="fa fa-file-o fa-fw"></i> {$lang->welcome_newposts}</li></a>
-	<a href="{$mybb->settings['bburl']}/search.php?action=getdaily"><li><i class="fa fa-calendar-plus-o fa-fw"></i> {$lang->welcome_todaysposts}</li></a>
-	<a href="{$mybb->settings['bburl']}/private.php"><li><i class="fa fa-envelope fa-fw"></i> {$lang->welcome_pms}</li></a>
-	<a href="{$mybb->settings['bburl']}/member.php?action=logout&amp;logoutkey={$mybb->user['logoutkey']}"><li><i class="fa fa-power-off fa-fw"></i> {$lang->welcome_logout}</li></a>
-</ul></li>
+<li class="dropdown">
+	<button id="userDropdown" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{$mybb->user['username']} <span class="caret"></span></button>
+	<ul class="uyepaneli dropdown-menu" aria-labelledby="userDropdown">
+		<a href="{$mybb->settings['bburl']}/usercp.php"><li><i style="font-size: 14px;" class="fa fa-cog fa-fw"></i> {$lang->welcome_usercp}</li></a>
+		<a href="{$mybb->settings['bburl']}/member.php?action=profile&uid={$mybb->user['uid']}"><li><i class="fa fa fa-user fa-fw"></i> {$lang->postbit_button_profile}</li></a>
+		<a href="{$mybb->settings['bburl']}/search.php?action=getnew"><li><i class="fa fa-file-o fa-fw"></i> {$lang->welcome_newposts}</li></a>
+		<a href="{$mybb->settings['bburl']}/search.php?action=getdaily"><li><i class="fa fa-calendar-plus-o fa-fw"></i> {$lang->welcome_todaysposts}</li></a>
+		<a href="{$mybb->settings['bburl']}/private.php"><li><i class="fa fa-envelope fa-fw"></i> {$lang->welcome_pms}</li></a>
+		<a href="{$mybb->settings['bburl']}/member.php?action=logout&amp;logoutkey={$mybb->user['logoutkey']}"><li><i class="fa fa-power-off fa-fw"></i> {$lang->welcome_logout}</li></a>
+	</ul>
+</li>
 {$modcplink}
 {$admincplink}

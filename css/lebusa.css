@@ -9,20 +9,23 @@ Author URL: http://www.enesatik.org
 
 /*------------------[Lebusa v1 - Lebusa Css]-------------------*/
 
-*{margin: 0;}
+*{margin: 0; list-style: none; box-sizing: content-box; -moz-box-sizing: content-box; -webkit-box-sizing: content-box;}
 body {background: #E4E6E6; color: #3c3c3c; font-family: 'Open Sans', sans-serif;font-size: 13px;}
 a {color:#00567C; text-decoration:none;}
 a:hover {color: darkorange; text-decoration:underline;}
 #container {min-width: 1022px; width: 98%; margin: 0 auto;}
-.panel {width: 100%; min-width: 1022px;position: fixed; z-index: 1000; top: 0; height: 50px; background: #1f1f1f; border-bottom: 1px solid #000; }
+.panel {width: 100%; min-width: 1022px;position: fixed; z-index: 1000; top: 0; height: 50px; background: #1f1f1f; border-bottom: 1px solid #000; border-radius: 0; }
 .panel .sagsira {float:right;}
 .panel li,.navigasyon li {list-style: none; cursor:pointer; color: grey; text-shadow: 1px 1px 1px #000; font-size: 12px; font-weight: 700; padding: 19px 10px 11px 10px; height: 20px; background: #101010; border-right: 1px solid black; text-align: center; float:left; transition: 0.3s all; -moz-transition: 0.3s all; -webkit-transition: 0.3s all; }
 .navigasyon li {background: #34495e; color: white;}
+#userDropdown {background: none; border: none; color: inherit; padding: 0; margin: 0;}
 .navtab{background: #54697e; color: white;}
 .panel li a {color: grey;}
 .navigasyon li a {text-decoration: none;}
-.panel li ul.kayit {color: #000; text-shadow: 0 0 0; font-weight: 200; box-shadow: 0.3px 0.3px 1px #fff;  font-family: Trebuchet MS, sans-serif; font-size: 14px; cursor: default; display: none; position: absolute; top: 50px; margin-left: -210px; background: #fff; padding: 30px 40px 30px 40px; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; border: 6px solid #111;}
-.panel li ul.uyepaneli {border-bottom: 1px solid #000; border-right: 1px solid #000; border-left: 1px solid #000;width: 150px;padding: 0;color: grey; background: #101010; cursor: default; display: none; position: absolute; margin-left: -99px; margin-top: -1px;}
+.panel li ul.kayit {color: #000; text-shadow: 0 0 0; font-weight: 200; box-shadow: 0.3px 0.3px 1px #fff;  font-family: Trebuchet MS, sans-serif; font-size: 14px; cursor: default; position: absolute; top: 50px; margin-left: -210px; background: #fff; padding: 30px 40px 30px 40px; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; border: 6px solid #111;}
+.kayit { display: none; }
+.panel li ul.uyepaneli {border-bottom: 1px solid #000; border-right: 1px solid #000; border-left: 1px solid #000;width: 150px;padding: 0;color: grey; background: #101010; cursor: default; position: absolute; margin-left: -99px; margin-top: -1px;}
+.uyepaneli { display: none; }
 .panel li ul.uyepaneli ul {padding: 0; }
 .panel li ul.uyepaneli ul li:hover a{color: #fff}
 .panel li ul.uyepaneli li {border-right: 0px; padding: 5px 8px 5px 8px; margin: 5px 0 5px 0;transition: 100ms; -webkit-transition: 100ms; -moz-transition: 100ms; text-align:left;width: 134px;}
