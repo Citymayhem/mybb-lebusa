@@ -1537,3 +1537,7 @@ div.jqi .jqisubstate .jqibuttons button {
 	position: relative;
 	visibility:hidden;
 }
+
+.checkbox {
+	display: inline-block;
+}
