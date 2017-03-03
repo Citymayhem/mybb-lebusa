@@ -9,7 +9,7 @@ Author URL: http://www.enesatik.org
 
 /*------------------[Lebusa v1 - Usercp Css]-------------------*/
 		
-		.usercp_nav_item {
+.usercp_nav_item {
 	display: block;
 	padding: 1px 0 1px 23px;
 	background-image: url(images/usercp_sprite.png);

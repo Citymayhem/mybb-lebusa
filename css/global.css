@@ -1541,3 +1541,12 @@ div.jqi .jqisubstate .jqibuttons button {
 .checkbox {
 	display: inline-block;
 }
+
+legend {
+	display: inline;
+	width: initial;
+	margin: 0;
+	font-size: inherit;
+	color: inherit;
+	border: 0;
+}
