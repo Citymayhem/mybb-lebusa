@@ -9,7 +9,7 @@ Author URL: http://www.enesatik.org
 
 /*------------------[Lebusa v1 - Lebusa Css]-------------------*/
 
-*{margin: 0; list-style: none; box-sizing: content-box; -moz-box-sizing: content-box; -webkit-box-sizing: content-box;}
+*{margin: 0; box-sizing: content-box; -moz-box-sizing: content-box; -webkit-box-sizing: content-box;}
 body {background: #E4E6E6; color: #3c3c3c; font-family: 'Open Sans', sans-serif;font-size: 13px;}
 a {color:#00567C; text-decoration:none;}
 a:hover {color: darkorange; text-decoration:underline;}
